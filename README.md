@@ -1,26 +1,76 @@
-# Car_sales_visualization
-**Project Overview**
-This project analyzes a dataset of car sales to explore key factors affecting car prices, especially focusing on the relationship between Odometer readings and Selling Price. The goal is to derive meaningful business insights that could help car dealers, resellers, or buyers make more informed decisions.
+Car Sales Visualization Project
+Project Overview
+This project focuses on analyzing a dataset of car sales using Power BI and Python (Pandas) to explore key factors influencing car prices—especially the impact of odometer readings on selling price. The goal was to perform meaningful analysis, extract insights, and present them in an interactive and intuitive dashboard to support informed decision-making for car dealers, resellers, and buyers.
 
-The analysis was performed using Power BI for visualization
+Dataset Used
+Car Sales Dataset
+Contains information on used car listings including:
 
-**Objective**
-To understand how the odometer reading (vehicle mileage) influences the selling price of a car.
+Odometer readings
 
-To build a report/dashboard that presents insights in a visually intuitive way.
+Selling price
 
-**Dashboard Highlights (Power BI)**
-Odometer vs. Selling Price visual showing the trend.
+Brand, model, transmission type, fuel type, year, etc.
 
-Average price per brand or model for better pricing insights.
+Tools and Technologies
+Tool	Purpose
+Python	Programming language for analysis
+Pandas	Data cleaning, aggregation, correlation
+Matplotlib & Seaborn	For creating plots (optional)
+Power BI	Data visualization and interactive dashboard
 
-Filters to slice data by year, brand, fuel type, or transmission type.
+Key Features and Steps
 
-KPIs showing total cars sold, average price, and highest/lowest selling prices.
+Standardized numeric and string column formats (e.g., odometer, price).
 
-**Key Insight**
-🔹 The correlation between odometer and sellingprice was found to be negative, suggesting that as odometer readings increase (i.e., more kilometers driven), the selling price of the car tends to decrease.
+Analysis Performed
+Odometer vs. Selling Price
 
-**Tools Used**
-Tool	    Purpose
-Power BI	Dashboard creation, data visualization
+Calculated the correlation between odometer readings and selling prices.
+
+Found a negative correlation, indicating that vehicles with higher mileage tend to be sold at lower prices.
+
+Brand & Model Price Trends
+
+Analyzed the average selling price for each car brand and model.
+
+Visualizations with Power BI
+Odometer vs. Selling Price
+
+Scatter plot with trendline to show the relationship between mileage and price.
+
+Brand-Level Pricing Insights
+
+Bar charts showing average price per brand/model.
+
+Interactive Filters
+
+Slicers for year, brand, fuel type, and transmission.
+
+KPI Indicators
+
+Total cars sold
+
+Average price
+
+Maximum and minimum selling prices
+
+Key Insight
+🔹 A negative correlation was identified between odometer readings and selling price, suggesting that higher mileage typically leads to lower resale value.
+
+This aligns with standard resale practices and helps dealers better assess a car’s market value.
+
+Results Summary
+Top Brands: Identified based on average price and market presence.
+
+Mileage Influence: Proven depreciation effect with usage.
+
+User Interaction: Filters and KPIs allow real-time exploration of data.
+
+Future Enhancements
+
+Incorporate additional car features like  color, or seller type.
+
+Build a predictive model to estimate car prices based on inputs.
+
+Publish the dashboard to Power BI service for public or stakeholder access.
