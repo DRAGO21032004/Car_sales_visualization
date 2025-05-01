@@ -1,4 +1,4 @@
-Car Sales Visualization Project
+**Car Sales Visualization Project**
 Project Overview
 
 This project focuses on analyzing a dataset of car sales using Power BI and Python (Pandas) to explore key factors influencing car prices—especially the impact of odometer readings on selling price. The goal was to perform meaningful analysis, extract insights, and present them in an interactive and intuitive dashboard to support informed decision-making for car dealers, resellers, and buyers.
